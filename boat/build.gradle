@@ -34,6 +34,11 @@ android {
             path file('src/main/jni/CMakeLists.txt')
         }
     }
+    lintOptions{
+       checkReleaseBuilds false
+       abortOnError false
+    }
+}
 
 }
 
